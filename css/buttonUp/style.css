@@ -1,0 +1,27 @@
+h2{
+    border: 2px solid aquamarine;
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    color: aquamarine;
+}
+
+#plus{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    border: 2px solid aquamarine;
+    color: white;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+#acc{
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    width: 150px;
+    box-shadow: 5px 5px 5px black;
+}
