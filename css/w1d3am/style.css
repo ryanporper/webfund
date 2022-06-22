@@ -1,0 +1,53 @@
+*{
+    color: black;
+}
+
+body{
+    background-color: aqua;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    background-color: yellow;
+}
+
+h2{
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 100;
+    font-family: fantasy;
+}
+
+h3{
+    font-family: monospace;
+}
+
+span{
+    color: blue;
+}
+
+p{
+    color:blueviolet;
+    line-height: 25px;
+}
+
+#p1{
+    color: crimson;
+    font-style: italic;
+}
+
+.unda{
+    text-decoration: underline;
+    color:green;
+}
+
+ol>li{
+    font-size: 28px;
+}
+
+div>h3{
+    font-style: italic;
+}
