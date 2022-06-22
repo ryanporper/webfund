@@ -1,0 +1,35 @@
+h1, h2, button, div{
+    border: 1px solid black;
+}
+
+h1, h2{
+    /* height: 400px;
+    font-size: 60px; */
+    width: 200px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* box-shadow: 30px 3px 3px black; */ 
+}
+
+div{
+    height: 200px;
+    /* width: 200px; */
+    background-color: rgb(205, 205, 218);
+    overflow-y: scroll;
+    border: 20px outset red;
+    padding: 20px 0px 30px 40px;
+    margin: 20px;
+    /* border-radius: 50%; */
+}
+
+#likebtn{
+    margin-right: 20px;
+}
+
+#click{
+    margin-left: 20px;
+}
