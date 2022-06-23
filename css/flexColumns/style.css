@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.col, .col-2, .col-3{
+    height: 100px;
+    width: 500px;
+    background-color: aliceblue;
+    
+}
