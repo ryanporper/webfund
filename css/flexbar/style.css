@@ -31,3 +31,11 @@
     width: 100px;
     box-shadow: 3px 3px black;
 }
+
+a{
+    color: #c1c1c1;
+}
+
+.active{
+    color: white;
+}
