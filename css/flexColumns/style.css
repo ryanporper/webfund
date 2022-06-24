@@ -4,16 +4,22 @@
     box-sizing: border-box;
 }
 
-.row{
-    background-color: blue;
+.row {
     display: flex;
-    justify-content: space-between;
-
 }
 
 .col, .col-2, .col-3{
-    height: 100px;
-    width: 500px;
-    background-color: aliceblue;
-    
+    margin: 10px;
+    padding: 10px;
+    background-color:aquamarine;
+    color: white;
+    flex: 1;
+
+}
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
 }
