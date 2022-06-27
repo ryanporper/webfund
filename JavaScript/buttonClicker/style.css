@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-bar{
+    background-color: gray;
+    margin: 0px 100px 30px 100px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+#nav-bar input{
+    height: 36px;
+    width: 550px;
+    font-size: 18px;
+    outline: 3px solid black;
+}
+
+#nav-bar button{
+   padding: 3px 10px;
+   font-size: 20px;
+   background-color: #2B78E4;
+   color: white;
+   box-shadow: 3px 3px black;
+}
+
+#nav-middle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#main{
+    /* outline: 3px solid red; */
+    height: 800px;
+    margin: 0px 30px;
+
+    display: flex;
+    /* gap: 20px; */
+}
+
+#col-left{
+    flex: 2;
+    margin-right: 20px;
+}
+
+#col-right{
+    flex: 1;
+}
+
+.ninja{
+    /* outline: 3px solid red; */
+    border: 3px solid black;
+    /* height: 300px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.ninja-left{
+    text-align: center;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+
+
+.ninja-left>img{
+    height: 150px;
+    width: 150px;
+}
+
+.ninja-left>h3{
+    font-size: 4rem;
+}
+
+.ninja-left>button{
+    background-color: #FFD966;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 15px;
+    box-shadow: 3px 3px black;;
+}
+
+.ninja-right{
+    text-align:left;
+    padding: 40px;
+}
+
+.ninja-right>p{
+    font-size: 2rem;
+}
+
+#add-def{
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 2rem;
+    
+}
+
+#add-def > button{
+    background-color: #93C47D;
+    padding: 10px 20px;
+    box-shadow: 3px 3px black;
+    margin-top: 20px;
+}

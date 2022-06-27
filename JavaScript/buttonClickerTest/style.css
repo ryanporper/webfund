@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#topBar{
+    /* height: 100px; */
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    margin: 0px 100px 50px 100px;
+}
+
+#bar{
+    height: 75px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+h1{
+    font-size: 4rem;
+    color: black;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    color: gray;
+}
+
+#login-logout{
+    background-color: #2B78E4;
+    color: white;
+    height: 35px;
+    width: 100px;
+    box-shadow: 3px 3px black;
+    font-size: 1.2rem;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.leftCol {
+    flex:2;
+    margin-right: 20px;
+}
+
+.rightCol {
+    flex: 1;
+}
+
+.leftCol, .rightCol {
+    /* outline: 3px solid black; */
+    height: 900px;
+}
+
+.ninjaBottom {
+    outline: 2px solid red;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+}
+.ninjaTop{
+    outline: 2px solid blue;
+    text-align: center;
+    display: flex;
+}
+
+.ninjaRight{
+    outline: 2px solid green;
+    /* width: 150px; */
+    background-color: aqua;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 2.8rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+#italicize{
+    font-style: italic;
+}
+
+#def-btn{
+    background-color: #93C47D;
+    color: black;
+    height: 35px;
+    width: 200px;
+    box-shadow: 3px 3px black;
+    font-size: 1.2rem;
+    margin: 20px ;
+}
+
+#defText{
+    font-size: 1.3rem;
+}
