@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+    margin-bottom: 50px;
+}
+
+#nav-left {
+    /* removing bullets */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    gap: 20px;
+
+}
+
+/* removes underline*/
+#nav-left a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#signout {
+    background-color: #17A2B8;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+ul li:first-child {
+    margin-right: 20px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 200px;
+}
+
+.col-left {
+    flex:2;
+    margin-right: 20px;
+}
+
+.col-right {
+    flex: 1;
+}
+
+.col-left, .col-right {
+    height: 900px;
+}
+
+#profile-body {
+    padding-left: 40px;
+    border: 3px solid gray;
+    border-top: none;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#prof-card-header {
+    background-color: aqua;
+}
+
+#profile-body>img {
+    height: 30px;
+}
+
+#profile-body>h2 {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+#profile-body>span {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+#profile-body p:first-of-type {
+    margin-top: 20px;
+}
+
+#profile-body>p, #profile-body>a{
+    font-size: 2rem;
+}
+
+#last-p {
+    margin-bottom: 20px;
+}
+
+#main-pic {
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    top: 75px;
+    left: 40px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 4px gray;
+}
+
+.education {
+    margin-top: 30px;
+
+}
+
+.card-header {
+    background-color: #333333;
+    color: white;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+#education-info {
+    padding: 15px;
+    border: 3px solid gray;
+    border-top: none;
+}
+
+#education-info>h3{
+    font-size: 2rem;
+}
+
+#education-info>p {
+    font-size: 1.4rem;
+}
+
+#dates {
+    color: gray;
+}
+
+.count {
+    background-color: #969696;
+    border-radius: 50%;
+    padding: 5px 8px;
+    color: black;
+    margin-right: 5px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.person>span {
+    font-size: 2rem;
+    margin-right: 50px;
+}
+
+.accept-reject {
+    height: 50px;
+}
+
+.card-body {
+    padding: 20px;
+    border: 3px solid gray;  
+    border-top: none;
+}
+
+.requests {
+    margin-bottom: 20px;
+}
+
+.person-connections {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#view-more {
+    border: 3px solid gray;
+    border-top: none;
+    padding: 10px;
+    font-size: 1.5rem;
+}
