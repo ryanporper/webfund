@@ -11,7 +11,8 @@
     padding: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 30px;
+    /* justify-content: space-between; */
 }
 
 h1{
@@ -19,10 +20,11 @@ h1{
 }
 
 #nav-bar input{
-    height: 36px;
-    width: 550px;
+    /* height: 36px;
+    width: 550px; */
     font-size: 18px;
     outline: 3px solid black;
+    flex: 1;
 }
 
 #nav-bar button{
@@ -33,11 +35,11 @@ h1{
    box-shadow: 3px 3px black;
 }
 
-#nav-middle{
+/* #nav-middle{
     display: flex;
     align-items: center;
     gap: 5px;
-}
+} */
 
 #main{
     /* outline: 3px solid red; */

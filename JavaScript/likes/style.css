@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#box{
+    border: 2px solid black;
+    padding: 30px;
+    margin: 30px 400px 0px 50px;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#top button{
+    padding: 3px 10px;
+    font-size: 20px;
+    background-color: #FFD966;
+    box-shadow: 3px 3px black;  
+}
+
+
+button{
+    margin-left: 50px;
+}
+
+span{
+    font-size: 1.3rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
