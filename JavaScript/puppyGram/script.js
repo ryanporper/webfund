@@ -26,3 +26,14 @@ function cookieMonster() {
     element.remove();
 
 }
+
+function addLike(id) {
+    // console.log("liking ", id);
+    var element = document.querySelector(id);
+    let likeCount = Number(element.innerText);
+    // console.log(likeCount);
+    likeCount++;
+    element.innerText = likeCount;
+
+
+}
